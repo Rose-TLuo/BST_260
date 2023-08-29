@@ -1,0 +1,36 @@
+---
+title: "1.5Exercise"
+author: "Rose Luo"
+format: html
+editor: visual
+echo: false
+---
+
+## 1
+
+```{r}
+a <- 1
+b <- 3
+c <- 2
+
+insqrt <- b^2-4*a*c
+
+if (insqrt < 0){
+  print("No real solution")
+} else{
+  sol1 <- (-b + sqrt(insqrt))/(2*a)
+  sol2 <- (-b - sqrt(insqrt))/(2*a)
+  sol1
+  sol2
+}
+```
+
+## 2
+
+```{r}
+x <- seq(-5, 5, length = 300)
+plot(x, a*x^2 + b*x +c, type = "l")
+abline(h = 0, lty = 2)
+```
+
+This plot shows the curve $ax^2+bx+c=0$ and the stright line for $y=0$. If there has solution for the above equation, the curve will have intersection with the line.
