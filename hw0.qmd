@@ -1,5 +1,5 @@
 ---
-title: "1.5Exercise"
+title: "hw0"
 author: "Rose Luo"
 format: html
 editor: visual
@@ -38,4 +38,4 @@ plot(x, a*x^2 + b*x +c, type = "l")
 abline(h = 0, lty = 2)
 ```
 
-This plot shows the curve $ax^2+bx+c=0$ and the stright line for $y=0$. If there has solution for the above equation, the curve will have intersection with the line.
+This plot shows the curve $ax^2+bx+c=0$ and the straight line for $y=0$. If there has solution for the above equation, the curve will have intersection with the line.
